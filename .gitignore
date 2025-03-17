@@ -1,0 +1,15 @@
+\flats_wroclaw.csv
+\chrome-win64.zip
+
+# Ігнорувати кеші Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ігнорувати середовищні файли
+.env
+config.json
+
+# Ігнорувати тимчасові файли
+*.log
+*.tmp
