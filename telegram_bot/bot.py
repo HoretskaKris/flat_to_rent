@@ -4,7 +4,7 @@ from aiogram.types import Message
 from aiogram.utils import executor
 from dotenv import load_dotenv
 
-load_dotenv()  # Завантажуємо змінні з .env
+load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
 bot = Bot(token=TOKEN)
